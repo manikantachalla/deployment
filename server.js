@@ -3,7 +3,7 @@ import path from 'path'
 const app = express();
 
 // Serve static files from the 'public' directory
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(path.join('build')));
 
 // Define routes and other middleware
 // ...
